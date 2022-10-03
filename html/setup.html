@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>Bookhood</title>
+</head>
+<body>
+    <header><nav class="logo"><strong class="active"><i>b</i></strong>&nbsp;Bookhood</nav>
+        <nav><strong><a href="#" class="active">Sign in</a></strong></nav></header>
+    <div class="container grid-row">
+        <section class="top vertical-align" style="min-height: 85vh; margin: 0 16vw;">
+            <h3>Sign up to Bookhood</h3>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ad3uxjiv.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop  autoplay></lottie-player>
+            <form>
+                <label for="fname">Email Address</label>
+                <input type="text" id="fname" name="fname">
+                <label for="fname">Password</label>
+                <input type="password" id="fname" name="fname">
+                <a href="#details"><button type="button" class="button-medium fill subtitle" style="float: right;">Up Next: Your Details</button></a>
+            </form>
+        </section>
+        <section id="details" class="mid vertical-align" style="min-height: 100vh; margin: 0 16vw;">
+            <img src="/img/social.png" alt="" width="200px" height="200px" style="margin-top: 8vh;">
+            <form>
+                <label for="fname">Username</label>
+                <input type="text" id="fname" name="fname">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+                <label for="fname">Last Name</label>
+                <input type="text" id="fname" name="fname">
+                <a href="#preferences"><button type="button" class="button-medium fill subtitle" style="float: right;">Up Next: Preferences</button></a>
+            </form>
+        </section>
+        <section class="bottom vertical-align" id="preferences" style="min-height:100vh; margin: 0 16vw;">
+                <article>
+                <form>
+                    <h3>Choose your preferences</h3> 
+                <label for="fname">Search for a topic or genre</label>
+                <input type="text" id="fname" name="fname">
+                    <button type="button" class="button-chip no-fill">Romance</button>
+                    <button type="button" class="button-chip no-fill">Science Fiction</button>
+                    <button type="button" class="button-chip no-fill">Classics</button>
+                    <button type="button" class="button-chip no-fill">Psychology</button>
+                    <button type="button" class="button-chip no-fill">Manga</button>
+                    <button type="button" class="button-chip no-fill">Historical</button>
+                    <button type="button" class="button-chip no-fill">Art</button>
+                    <button type="button" class="button-chip no-fill">Philosophy</button>
+                    <button type="button" class="button-chip no-fill">Thriller</button>
+                    <button type="button" class="button-chip no-fill">Adventure</button>
+                    <button type="button" class="button-chip no-fill">Horror</button>
+                    <button type="button" class="button-chip no-fill">Drama</button>
+                    <button type="button" class="button-chip no-fill">Comedy</button>
+                    <button type="button" class="button-chip no-fill">Technology</button>
+                    <button type="button" class="button-chip no-fill">Spiritual</button>
+                    <article><a href="/html/browse.html"><button type="button" class="button-medium fill subtitle" style="float:right; margin-top: 15vh;">Finished</button></a></article>
+                </form>
+               </article>     
+        </section>
+    </div>    
+</body>
+</html>
