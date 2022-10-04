@@ -17,32 +17,32 @@
             <nav><a href="/html/index.html"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav>
         </article>
         <article class="horizontal-align">
-            <nav><strong><a href="#">Browse</a></strong></nav>
-            <nav><strong><a href="#" class="active">Profile</a></strong></nav>
-            <nav><strong><a href="#" class="active">Sell Books</a></strong></nav>
+            <nav><strong><a href="/html/browse.html" class="active">Browse</a></strong></nav>
+            <nav><strong><a href="/html/profile.html" class="active">Profile</a></strong></nav>
+            <nav><strong><a href="/html/purchase.html#sell" class="active">Sell Books</a></strong></nav>
         </article>   
     </header>
     <div class="main-container">
         <section id="#sell">
-            <article>
-                <h2>Make a listing</h2>
-                <p>Free up your shelf and earn some extra cash by selling your pre-loved books.</p>
-            </article>
-            <article>
-                <img src="/img/book31.png" alt="" width="100%">
-            </article>
-            <article>
-                <form>
-                    <label for="fname">Book title</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Author</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Listing title</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Name your price</label>
-                    <input type="text" id="fname" name="fname">
+            <article class="grid-secondary">
+                <article>
+                    <img src="/img/book31.png" alt="" width="100%">
+                </article>
+                <article class="vertical-align">
+                    <h2>Make a listing</h2>
+                    <p>Free up your shelf and earn some extra cash by selling your pre-loved books.</p>
+                    <form>
+                        <label for="fname">Book title</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="fname">Author</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="fname">Listing title</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="fname">Name your price</label>
+                        <input type="text" id="fname" name="fname">
+                    </form>
                     <a href="/html/purchase.html#sold"><button type="button" class="primary default">Sell this book</button></a>
-                </form>
+                </article>
             </article>
         </section>
         <section id="sold">
@@ -54,28 +54,32 @@
                 <h2>Buy this book</h2>
                 <p>This book ships to your address.</p>
             </article>
-            <article>
-                <img src="/img/book31.png" alt="" width="100%">
-            </article>
-            <article>
-                <form>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Last Name</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Phone number</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Shipping address</label>
-                    <input type="text" id="fname" name="fname">
-                </form>
-            </article>
-            <article>
-                <h5>Listed Price: $10</h5>
-                    <h5>Shipping: $6 Express Delivery</h5>
-                    <h5>Total: $16.00</h5>
-            </article>
-            <article>
-                <a href="/html/purchase.html#ship"><button type="button" class="primary default">Confirm purchase</button></a>
+            <article class="grid-secondary">
+                <article>
+                    <img src="/img/book31.png" alt="" width="100%">
+                </article>
+                <article>
+                    <article>
+                        <form>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname">
+                            <label for="fname">Last Name</label>
+                            <input type="text" id="fname" name="fname">
+                            <label for="fname">Phone number</label>
+                            <input type="text" id="fname" name="fname">
+                            <label for="fname">Shipping address</label>
+                            <input type="text" id="fname" name="fname">
+                        </form>
+                    </article>
+                    <article>
+                        <h5>Listed Price: $10</h5>
+                            <h5>Shipping: $6 Express Delivery</h5>
+                            <h5 class="active">Total: $16.00</h5>
+                    </article>
+                    <article>
+                        <a href="/html/purchase.html#ship"><button type="button" class="primary default">Confirm purchase</button></a>
+                    </article>
+                </article>
             </article>
         </section>
         <section id="ship">

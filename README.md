@@ -1,3 +1,3 @@
 # Bookhood - Web Design I 2022
 
-I've finished coding all the pages I've designed on Figma. I've also re-structured my code and followed a mobile-first approach. I felt like this made things a lot faster than how I did it previously with the span approach so I'm glad that I decided to take the time to re-structure my code. I'm happy with the layout so far but I'm still going to try incorporate the grid areas especially as I move on to the larger screen sizes. I feel like this would be useful as I need to incorporate more complicated grids.
+I've finished adapting the design for different screen sizes in code. I've adapted different grid systems depending on the needs of my layout. I've also figured out how to keep one side of the column fixed on scroll in the expanded book title which I was happy about. At the moment, the website is fully responsive. However, I still need to work on the landing page and make sure it's as close as possiible to my Figma prototype.

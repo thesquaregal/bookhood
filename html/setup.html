@@ -18,51 +18,74 @@
     </header>
     <div class="main-container">
         <section>
-            <h1 class="spacing">Sign up to Bookhood</h1>
-            <form>
-                <label for="fname">Email</label>
-                <input type="text" id="fname" name="fname">
-                <label for="fname">Password</label>
-                <input type="password" id="fname" name="fname">
-                <a href="#details"><button type="button" class="primary default">Up Next: Your Details</button></a>
-            </form>
-        </section>
-        <span id="details"></span>
-        <section>
-            <article class="spacing"><img src="/img/social.png" alt="" width="100%" style="background:lightgray;"></article>
-            <form>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname">
-                <label for="fname">Last Name</label>
-                <input type="text" id="fname" name="fname">
-                <a href="#preferences"><button type="button" class="primary default">Up Next: Preferences</button></a>
-            </form>
+            <article class="grid-secondary">
+                <article class="vertical-align large-component inside-box">
+                    <h1 class="spacing">Sign up to Bookhood</h1>
+                    <h3>An all-in-one platform for Bookworms around the world.</h3><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_o1zjyvqh.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   autoplay></lottie-player>
+                </article>
+                <article class="vertical-align">
+                    <article class="horizontal-align" style="justify-content: space-between;">
+                        <article>
+                            <h3>Is this you?</h3>
+                            <p class="caption">Linked via Google Account</p>
+                        </article>
+                        <img src="/img/carmen.png" alt="" width="100vh">
+                    </article>
+                    <form>
+                        <label for="fname">Your Name</label>
+                        <article class="horizontal-align">
+                            <input type="text" id="fname" name="fname" style="margin-right: 1em;" placeholder="First name">
+                            <input type="text" id="fname" name="fname" placeholder="Last name">
+                        </article>
+                        <label for="fname">Email</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="fname">Password</label>
+                        <input type="password" id="fname" name="fname">
+                    </form>
+                    <a href="#preferences"><button type="button" class="primary default">Confirm Details</button></a>
+                </article>
+            </article>
         </section>
         <section id="preferences">
-                <h1 class="spacing">Choose your preferences</h1>
-                <form>
-                <label for="fname">Search for a topic or genre</label>
-                <article class="spacing" style="display: flex; align-items:center;">
-                    <input type="text" id="fname" name="fname" placeholder="Search for an author, book or genre...">
-                    <span class="material-symbols-outlined" style="padding-left: 1em;">search</span>
+                <article class="grid-secondary">
+                    <article class="large-component inside-box">
+                        <h2>Next, let's choose your preferences.</h2>
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dkul2vpu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   autoplay></lottie-player>
+                    </article>
+                    <article class="vertical-align">
+                        <article>
+                            <label for="fname">Search for a topic or genre</label>
+                            <article style="display: flex; align-items:center;">
+                                <input type="text" id="fname" name="fname" placeholder="Search for an author, book or genre...">
+                                <span class="material-symbols-outlined" style="padding-left: 1em;">search</span>
+                            </article>
+                        </article>
+                        <article>
+                            <form>
+                                <button type="button" class="button-chip secondary">Romance</button>
+                                <button type="button" class="button-chip secondary">Science Fiction</button>
+                                <button type="button" class="button-chip secondary">Classics</button>
+                                <button type="button" class="button-chip secondary">Psychology</button>
+                                <button type="button" class="button-chip secondary">Manga</button>
+                                <button type="button" class="button-chip secondary">Historical</button>
+                                <button type="button" class="button-chip secondary">Art</button>
+                                <button type="button" class="button-chip secondary">Philosophy</button>
+                                <button type="button" class="button-chip secondary">Thriller</button>
+                                <button type="button" class="button-chip secondary">Adventure</button>
+                                <button type="button" class="button-chip secondary">Horror</button>
+                                <button type="button" class="button-chip secondary">Drama</button>
+                                <button type="button" class="button-chip secondary">Comedy</button>
+                                <button type="button" class="button-chip secondary">Technology</button>
+                                <button type="button" class="button-chip secondary">Spiritual</button>
+                            </form>
+                        </article>
+                        <article>
+                            <a href="/html/browse.html"><button type="button" class="primary default">Finished</button>
+                        </article>
+                    </article>
                 </article>
-                    <button type="button" class="button-chip secondary">Romance</button>
-                    <button type="button" class="button-chip secondary">Science Fiction</button>
-                    <button type="button" class="button-chip secondary">Classics</button>
-                    <button type="button" class="button-chip secondary">Psychology</button>
-                    <button type="button" class="button-chip secondary">Manga</button>
-                    <button type="button" class="button-chip secondary">Historical</button>
-                    <button type="button" class="button-chip secondary">Art</button>
-                    <button type="button" class="button-chip secondary">Philosophy</button>
-                    <button type="button" class="button-chip secondary">Thriller</button>
-                    <button type="button" class="button-chip secondary">Adventure</button>
-                    <button type="button" class="button-chip secondary">Horror</button>
-                    <button type="button" class="button-chip secondary">Drama</button>
-                    <button type="button" class="button-chip secondary">Comedy</button>
-                    <button type="button" class="button-chip secondary">Technology</button>
-                    <button type="button" class="button-chip secondary">Spiritual</button>
-                    <a href="/html/browse.html"><button type="button" class="primary default">Finished</button>
-                </form>
         </section>
     </div>
 </body>

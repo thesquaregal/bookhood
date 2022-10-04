@@ -94,12 +94,35 @@ nav{
 }
 .horizontal-align{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
-.grid{
+.vertical-align{
+    display: flex; 
+    flex-direction:column; 
+    justify-content:space-around;
+}
+.grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 12px;
+    gap: 24px;
+}
+.grid-secondary{
+    display: grid;
+    grid-template-columns: auto;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 20% auto;
+    gap: 24px;
+}
+.grid-main section:first-child{
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+.grid-main section:nth-of-type(2){
+    padding: 1em;
 }
 article{
     margin-bottom: 1em;
@@ -119,9 +142,10 @@ button{
     font-size: 22px;   
 }
 .button-chip{
-    border-radius: 24px;
-    font-size: 14px; 
+    border-radius: 8vw;
     width:inherit;
+    min-width: 8vw;
+    min-height: 8vh;
     height: inherit;
 }
 .primary{
@@ -143,5 +167,22 @@ input[type=text],input[type=password] {
 
 hr{
     border: 1px solid #A54E4E;
-    margin: 1em 0;
+    margin: 2em 0;
+}
+@media screen and (min-width: 768px){
+	.grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .grid-secondary{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+}
+@media screen and (min-width: 1024px){
+	.grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
 }

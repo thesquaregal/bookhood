@@ -12,103 +12,113 @@
     <title>Bookhood</title>
 </head>
 <body>
-    <header>
-        <article>
-            <nav><a href="/html/index.html"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav>
-        </article>
-        <article class="horizontal-align">
-            <nav><strong><a href="#">Browse</a></strong></nav>
-            <nav><strong><a href="#" class="active">Profile</a></strong></nav>
-            <nav><strong><a href="#" class="active">Sell Books</a></strong></nav>
-        </article>   
-    </header>
-    <div class="main-container">
+    <div class="grid-main">
         <section>
-                <article>
-                    <article>
-                        <h2><a href="/html/catalogue.html" class="active">Browse catalogue/</a> Non-Fiction</h2>
-                    </article>
-                    <article><img src="/img/book12.png" alt="" width="100%"></article>
-                    <article>
-                        <a href="#"><button type="button" class="secondary default">Add to Shelf</button></a>
-                        <article>
-                            <a href="/html/sellers.html"><button type="button" class="primary default">Find A Seller</button></a>
-                            <p class="caption" style="text-align: center;">2 listings on Bookhood</p>
-                        </article>
-                    </article>
-                </article>
+                <article><nav><a href="#"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav></article>
+                <img src="/img/book12.png" alt="" width="100%">
+                <a href="#"><button type="button" class="secondary default">Add to Shelf</button></a>
+                <a href="/html/sellers.html"><button type="button" class="primary default">Find a Seller</button></a>
+                <p class="caption" style="text-align: center;">2 Bookhood listings</p>
         </section>
         <section>
             <article>
+                <a href="/html/catalogue.html" class="active"><h2>Non-Fiction</h2></a>
+            </article>
+            <article>
                 <h1>The Book of Minds: How to Understand Ourselves and Other Beings, from Animals to AI to Aliens</h1>
-                <h2>Phillip Ball</h2>
+                <h3>Phillip Ball</h3>
             </article>
             <article>
                 <img src="/img/rating.png" alt="">
                 <p class="caption">4.5 / 5.0 Star Ratings</p>
             </article>
-        </section>
-        <section>
             <article>
                 <p><strong>Popular science writer Philip Ball explores a range of sciences to map our answers to a huge, philosophically rich question: How do we even begin to think about minds that are not human?</strong></p>
                 <p>Sciences from zoology to astrobiology, computer science to neuroscience, are seeking to understand minds in their own distinct disciplinary realms. Taking a uniquely broad view of minds and where to find them—including in plants, aliens, and God—Philip Ball pulls the pieces together to explore what sorts of minds we might expect to find in the universe. In so doing, he offers for the first time a unified way of thinking about...</p>
             </article>
-            <article class="active"><strong>Read more</strong></article>
-            <article><hr></article>
+            <article class="active"><strong>Read More</strong></article>
+            <hr>
             <article>
                 <h2>Share your thoughts</h2>
                 <p>Read it? Join the conversation by rating this book and writing a review.</p>
+            </article>
+            <article class="horizontal-align">
+                <p class="caption" style="padding-right: 1em;">Rate this book</p>
                 <img src="/img/in-active-rating.png" alt="">
             </article>
             <article>
                 <span class="material-symbols-outlined">
+                    format_list_bulleted
+                    </span>
+                <span class="material-symbols-outlined">
+                    format_quote
+                    </span>
+                <span class="material-symbols-outlined">
+                    attachment
+                    </span>
+                <span class="material-symbols-outlined">
                     format_bold
                     </span>
-                <span class="material-symbols-outlined">
-                    attach_file
-                    </span>
-                <span class="material-symbols-outlined">
-                    list
-                    </span>
-                <div class="small-component">
-                    <input type="text" id="fname" name="fname" style="border: none;" placeholder="Express yourself...">
-                </div>
             </article>
-            <article><hr></article>
-        </section>
-        <section>
+            <article class="inside-box">
+                <form >
+                    <input type="text" id="fname" name="fname" style="border: none;" placeholder="Start discussing your thoughts...">
+                </form>
+            </article>
+            <hr>
             <article>
                 <h2>What others think</h2>
                 <p>Read other book reviews, like and comment to start on a discussion.</p>
             </article>
             <article>
-                <article class="small-component">
+                <article class="grid-main">
                     <article>
-                        <img src="/img/mike.png" alt="">
+                        <article>
+                            <img src="/img/mike.png" alt="">
+                        </article>
+                        <article>
+                            <p>Mike</p>
+                            <p class="caption">54 Reviews <br> 104 Followers</p>
+                        </article>
+                        <article>
+                            <p class="active"><strong>Follow</strong></p>
+                        </article>
                     </article>
                     <article>
-                        <p>Mike</p>
-                        <p class="caption">54 Reviews <br>
-                            104 Followers</p>
-                        <p class="active"><strong>Follow</strong></p>
+                        <article>
+                            <p><strong>‘Magnis cubilia pellentesque euismod id porta.‘</strong></p>
+                        </article>
+                        <article>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius doloremque, minus illum tempore aut sapiente quam debitis consequatur exercitationem in suscipit expedita assumenda vitae possimus ab voluptatibus, omnis architecto. Eum magnam ex id eos ea iste dolore tempora blanditiis magni earum porro in iure nostrum, doloribus corrupti, velit atque explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, unde! Tempore, numquam obcaecati! Sint odit nihil atque nobis magnam illo quia consequuntur excepturi, blanditiis necessitatibus voluptas expedita aut commodi. Deserunt? </p>
+                        </article>
+                        <article class="active">
+                            <strong>Read more</strong>
+                        </article>
+                        <article class="horizontal-align" style="flex-wrap: wrap;">
+                            <article class="horizontal-align" style="padding-right: 1em;">
+                                <div style="padding-right: 1em;"><span class="material-symbols-outlined active">
+                                    favorite
+                                    </span></div>
+                                <div class="caption">
+                                    120 liked this book review
+                                </div>
+                            </article>
+                            <article class="horizontal-align">
+                                <div style="padding-right: 1em;"><span class="material-symbols-outlined">
+                                    comment
+                                    </span></div>
+                                <div class="caption">
+                                    Be the first to comment
+                                </div>
+                            </article>
+                        </article>
+                        <article>
+                            <form>
+                                <label for="fname">Want to start a discussion?</label>
+                                <input type="text" id="fname" name="fname" placeholder="Leave a comment">
+                            </form>
+                        </article>
                     </article>
-                </article>
-                <article>
-                    <p><strong>‘Magnis cubilia pellentesque euismod id porta.‘</strong></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, aenean faucibus molestie risus lobortis viverra, in turpis auctor ad fringilla metus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed commodi sint quis dolorem voluptas, earum ad velit laboriosam doloribus fugiat sapiente vel nesciunt iusto culpa, alias provident eveniet magnam error?</p>
-                </article>
-                <article>
-                    <p class="caption"><a href="#">
-                        <span class="material-symbols-outlined active">
-                            favorite
-                            </span>
-                    </a> 100 Bookworms liked this</p>
-                </article>
-                <article style="display: flex; align-items:center;">
-                    <span class="material-symbols-outlined" style="padding-right: 1em;">
-                        chat
-                        </span>
-                    <input type="text" id="fname" name="fname" placeholder="Leave a comment...">
                 </article>
             </article>
         </section>
