@@ -51,7 +51,7 @@ header{
     background:white;
     position:sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -70,13 +70,26 @@ nav{
     background: #F2F0E8;
     padding: 1em;
     min-height: 70vh;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
+}
+.mid-component{
+    background: #F2F0E8;
+    padding: 1em;
+    min-height: 70vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 .medium-component{
     border-bottom: 1px solid black;
     padding: 24% 1em;
+    margin: 10vh 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -112,20 +125,19 @@ nav{
 }
 .grid-main{
     display: grid;
-    grid-template-columns: 20% auto;
-    gap: 24px;
+    grid-template-columns: auto;
 }
 .grid-main section:first-child{
     padding: 1em;
-    position: sticky;
-    top: 0;
-    height: fit-content;
 }
 .grid-main section:nth-of-type(2){
     padding: 1em;
 }
 article{
     margin-bottom: 1em;
+}
+.extra-large-component{
+    text-align: center;
 }
 
 /*button*/
@@ -179,10 +191,68 @@ hr{
         grid-template-columns: repeat(2,1fr);
         gap: 24px;
     }
+    .grid-main{
+        display: grid;
+        grid-template-columns: 30% auto;
+        gap: 24px;
+    }
+    .grid-main section:first-child{
+        padding: 1em;
+        position: sticky;
+        top: 0;
+        height: fit-content;
+    }
+    h1{
+        font-size: 72px;
+    }
+    button{
+        width: 284px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 22px;   
+    }
+    .extra-large-component{
+        margin: 0 10vw; 
+    }
 }
 @media screen and (min-width: 1024px){
 	.grid{
         display: grid;
         grid-template-columns: repeat(6,1fr);
+    }
+     .grid-main{
+        display: grid;
+        grid-template-columns: 25% auto;
+        gap: 24px;
+    }
+    .grid-main section:first-child{
+        padding: 1em;
+        position: sticky;
+        top: 0;
+        height: fit-content;
+    }
+    .medium-component{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid black;
+        padding: 1em;
+        height: 50%;
+        width: 25%;
+        text-align: center;
+        background: white;
+        z-index: 1;
+    }
+    .large-component{
+        text-align: center;
+        position: absolute;
+        top:100vh;
+        left: 0;
+        max-height: 5vh;
+        width: 100%;
+        padding: 24vh 0;
+    }
+    .mid{
+        display: flex; justify-content:center;
     }
 }

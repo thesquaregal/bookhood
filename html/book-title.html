@@ -16,9 +16,10 @@
         <section>
                 <article><nav><a href="#"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav></article>
                 <img src="/img/book12.png" alt="" width="100%">
-                <a href="#"><button type="button" class="secondary default">Add to Shelf</button></a>
-                <a href="/html/sellers.html"><button type="button" class="primary default">Find a Seller</button></a>
+                <article>
+                    <a href="/html/sellers.html"><button type="button" class="primary default" style="width: 100%;">Find Sellers</button></a>
                 <p class="caption" style="text-align: center;">2 Bookhood listings</p>
+                </article>
         </section>
         <section>
             <article>
@@ -65,10 +66,12 @@
                     <input type="text" id="fname" name="fname" style="border: none;" placeholder="Start discussing your thoughts...">
                 </form>
             </article>
+            <article><a href="#"><p class="active"><strong>Post</strong></p></a></article>
             <hr>
             <article>
                 <h2>What others think</h2>
                 <p>Read other book reviews, like and comment to start on a discussion.</p>
+                <br>
             </article>
             <article>
                 <article class="grid-main">
@@ -78,7 +81,7 @@
                         </article>
                         <article>
                             <p>Mike</p>
-                            <p class="caption">54 Reviews <br> 104 Followers</p>
+                            <p class="caption">54 Reviews <br> 69 Following <br> 104 Followers</p>
                         </article>
                         <article>
                             <p class="active"><strong>Follow</strong></p>
@@ -94,6 +97,7 @@
                         <article class="active">
                             <strong>Read more</strong>
                         </article>
+                        <hr style="border: 1px solid black;">
                         <article class="horizontal-align" style="flex-wrap: wrap;">
                             <article class="horizontal-align" style="padding-right: 1em;">
                                 <div style="padding-right: 1em;"><span class="material-symbols-outlined active">
@@ -115,7 +119,11 @@
                         <article>
                             <form>
                                 <label for="fname">Want to start a discussion?</label>
-                                <input type="text" id="fname" name="fname" placeholder="Leave a comment">
+                                <article style="display: flex; align-items:center;">
+                                    <input type="text" id="fname" name="fname" placeholder="Leave a comment">
+                                    <a href="#"><span class="material-symbols-outlined active" style="padding-left: 0.5em;">send</span>
+                                    </a>
+                                </article>
                             </form>
                         </article>
                     </article>
