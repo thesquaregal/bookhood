@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,19 +14,19 @@
 <body>
     <header>
         <article>
-            <nav><a href="/html/index.html"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav>
+            <nav><a href="../html/index.html"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav>
         </article>
         <article class="horizontal-align">
-            <nav><strong><a href="/html/browse.html" class="active">Browse</a></strong></nav>
-            <nav><strong><a href="/html/profile.html" class="active">Profile</a></strong></nav>
-            <nav><strong><a href="/html/purchase.html#sell" class="active">Sell Books</a></strong></nav>
+            <nav><strong><a href="../html/browse.html" class="active">Browse</a></strong></nav>
+            <nav><strong><a href="../html/profile.html" class="active">Profile</a></strong></nav>
+            <nav><strong><a href="../html/purchase.html#sell" class="active">Sell Books</a></strong></nav>
         </article>   
     </header>
     <div class="main-container">
         <section id="#sell">
             <article class="grid-secondary">
                 <article>
-                    <img src="/img/book31.png" alt="" width="100%">
+                    <img src="../img/book31.png" alt="" width="100%">
                 </article>
                 <article class="vertical-align">
                     <h2>Make a listing</h2>
@@ -41,13 +41,14 @@
                         <label for="fname">Name your price</label>
                         <input type="text" id="fname" name="fname">
                     </form>
-                    <a href="/html/purchase.html#sold"><button type="button" class="primary default">Sell this book</button></a>
+                    <a href="../html/purchase.html#sold"><button type="button" class="primary default">Sell this book</button></a>
                 </article>
             </article>
         </section>
-        <section id="sold">
+        <section id="sold" style="height: 100vh;">
             <h1><i class="active">Done!</i> Check out your listings in your profile.</h1>
-            <a href="/html/profile.html"><button type="button" class="primary default">Go to profile</button></a>
+            <a href="../html/profile.html"><button type="button" class="primary default">Go to profile</button></a>
+           
         </section>
         <section id="buy">
             <article class="grid-secondary">
@@ -56,7 +57,7 @@
                     <p>This book ships to your address.</p>
                 </article>
                 <article class="horizontal-align">
-                    <article style="padding-right: 1em;"><img src="/img/By-mohamed abdelghaffar-via-Pexels.png" alt=""></article>
+                    <article style="padding-right: 1em;"><img src="../img/By-mohamed abdelghaffar-via-Pexels.png" alt=""></article>
                     <article>
                         <p>Mike</p>
                         <p class="active"><strong>98% seller rating</strong></p>
@@ -65,7 +66,7 @@
                     </article>
                 </article>
                 <article>
-                    <img src="/img/book31.png" alt="" width="100%">
+                    <img src="../img/book31.png" alt="" width="100%">
                 </article>
                 <article>
                     <article>
@@ -86,14 +87,14 @@
                             <h5 class="active">Total: $16.00</h5>
                     </article>
                     <article>
-                        <a href="/html/purchase.html#ship"><button type="button" class="primary default">Confirm purchase</button></a>
+                        <a href="../html/purchase.html#ship"><button type="button" class="primary default">Confirm purchase</button></a>
                     </article>
                 </article>
             </article>
         </section>
         <section id="ship">
             <h1><i class="active">Done!</i> Your order is on its way.</h1>
-            <a href="/html/browse.html"><button type="button" class="primary default">Go back to browse</button></a>
+            <a href="../html/browse.html"><button type="button" class="primary default">Go back to browse</button></a>
         </section>
     </div>
 </body>
