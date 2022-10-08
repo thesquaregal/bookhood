@@ -12,81 +12,79 @@
     <title>Bookhood</title>
 </head>
 <body>
-    <header>
-        <nav><a href="../html/index.html"><h4><strong class="active"><i>b</i></strong>&nbsp;Bookhood</h4></a></nav>
-        <nav><strong><a href="../html/browse.html" class="active">Sign in</a></strong></nav>
-    </header>
-    <div class="main-container">
-        <section>
-            <article class="grid-secondary">
-                <article class="vertical-align mid-component inside-box">
-                    <h1 class="spacing">Sign up to Bookhood</h1>
-                    <h3>An all-in-one platform for Bookworms around the world.</h3><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_o1zjyvqh.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   autoplay></lottie-player>
+    <div class="container">
+        <section class="full-grid">
+            <article class="half-grid">
+                <article class="inside-box pop">
+                    <h2>Sign up to Bookhood</h2>
+                    <h4>An all-in-one platform for Bookworms around the world.</h4><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_o1zjyvqh.json"  background="transparent"  speed="1"  style="width: auto; height: 16em" hover   autoplay></lottie-player>
                 </article>
-                <article class="vertical-align">
-                    <article class="horizontal-align" style="justify-content: space-between;">
-                        <article>
-                            <h3>Is this you?</h3>
+                <article>
+                    <article class="horizontal-align">
+                        <div>
+                            <h4>Is this you?</h4>
                             <p class="caption">Linked via Google Account</p>
-                        </article>
-                        <img src="../img/By-Jonaorle-via-Pexels.png" alt="" width="100vh">
+                        </div>
+                        <div><img src="../img/By-Jonaorle-via-Pexels.png" alt="" width="100%"></div>
                     </article>
-                    <form>
-                        <label for="fname">Your Name</label>
-                        <article class="horizontal-align">
-                            <input type="text" id="fname" name="fname" style="margin-right: 1em;" placeholder="First name">
-                            <input type="text" id="fname" name="fname" placeholder="Last name">
-                        </article>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" style="margin-right: 1em;">
+                        <label for="fname">Last Name</label>
+                        <input type="text" id="fname" name="fname">
                         <label for="fname">Email</label>
                         <input type="text" id="fname" name="fname">
                         <label for="fname">Password</label>
                         <input type="password" id="fname" name="fname">
-                    </form>
-                    <a href="#preferences"><button type="button" class="primary default">Confirm Details</button></a>
+                        <a href="#preferences"><button type="button" class="primary default">Confirm</button></a>
                 </article>
             </article>
         </section>
-        <section id="preferences">
-                <article class="grid-secondary">
-                    <article class="mid-component inside-box">
-                        <h2>Next, let's choose your preferences.</h2>
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dkul2vpu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   autoplay  loop></lottie-player>
+    </div>
+    <div class="container">
+
+        <section id="preferences" class="full-grid">
+            <article class="half-grid">
+                <article class="inside-box pop">
+                    <h2>Next, let's choose your preferences.</h2>
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dkul2vpu.json"  background="transparent"  speed="1"  style="width: auto; height: 16em;" hover   autoplay  loop></lottie-player>
+                </article>
+                <article class="vertical-align">
+                    <article>
+                        <label for="fname">Search for a topic or genre</label>
+                        <div style="display: flex; align-items:center;">
+                            <input type="text" id="fname" name="fname" placeholder="Search for an author, book or genre...">
+                            <span class="material-symbols-outlined" style="padding-left: 1em;">search</span>
+                        </div>
                     </article>
-                    <article class="vertical-align">
-                        <article>
-                            <label for="fname">Search for a topic or genre</label>
-                            <article style="display: flex; align-items:center;">
-                                <input type="text" id="fname" name="fname" placeholder="Search for an author, book or genre...">
-                                <span class="material-symbols-outlined" style="padding-left: 1em;">search</span>
-                            </article>
-                        </article>
-                        <article>
-                            <form>
-                                <button type="button" class="button-chip secondary">Romance</button>
-                                <button type="button" class="button-chip secondary">Science Fiction</button>
-                                <button type="button" class="button-chip secondary">Classics</button>
-                                <button type="button" class="button-chip secondary">Psychology</button>
-                                <button type="button" class="button-chip secondary">Manga</button>
-                                <button type="button" class="button-chip secondary">Historical</button>
-                                <button type="button" class="button-chip secondary">Art</button>
-                                <button type="button" class="button-chip secondary">Philosophy</button>
-                                <button type="button" class="button-chip secondary">Thriller</button>
-                                <button type="button" class="button-chip secondary">Adventure</button>
-                                <button type="button" class="button-chip secondary">Horror</button>
-                                <button type="button" class="button-chip secondary">Drama</button>
-                                <button type="button" class="button-chip secondary">Comedy</button>
-                                <button type="button" class="button-chip secondary">Technology</button>
-                                <button type="button" class="button-chip secondary">Spiritual</button>
-                            </form>
-                        </article>
-                        <article>
-                            <a href="../html/browse.html"><button type="button" class="primary default">Finished</button>
-                        </article>
+                    <article>
+                        <button type="button" class="button-chip secondary">Romance</button>
+                        <button type="button" class="button-chip secondary">Science Fiction</button>
+                        <button type="button" class="button-chip secondary">Classics</button>
+                        <button type="button" class="button-chip secondary">Psychology</button>
+                        <button type="button" class="button-chip secondary">Manga</button>
+                        <button type="button" class="button-chip secondary">Historical</button>
+                        <button type="button" class="button-chip secondary">Art</button>
+                        <button type="button" class="button-chip secondary">Philosophy</button>
+                        <button type="button" class="button-chip secondary">Thriller</button>
+                        <button type="button" class="button-chip secondary">Adventure</button>
+                        <button type="button" class="button-chip secondary">Horror</button>
+                        <button type="button" class="button-chip secondary">Drama</button>
+                        <button type="button" class="button-chip secondary">Comedy</button>
+                        <button type="button" class="button-chip secondary">Technology</button>
+                        <button type="button" class="button-chip secondary">Spiritual</button>
+                    </article>
+                    <article>
+                        <a href="../html/browse.html"><button type="button" class="primary default">Finished</button>
                     </article>
                 </article>
-        </section>
+            </article>
+    </section>
     </div>
+    <footer>
+        <p class="caption"> Ybanez &copy; Bookhood 2022</p>
+        <p class="caption active"><a href="#">Back to top</a></p>
+    </footer>
 </body>
 </html>

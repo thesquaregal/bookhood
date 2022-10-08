@@ -22,15 +22,15 @@
             <nav><strong><a href="../html/purchase.html#sell" class="active">Sell Books</a></strong></nav>
         </article>   
     </header>
-    <div class="main-container">
-        <section id="#sell">
-            <article class="grid-secondary">
+    <div class="container">
+        <section id="#sell" class="full-grid">
+            <h3>Make a listing</h3>
+            <p>Free up your shelf and earn some extra cash by selling your pre-loved books.</p>
+            <article class="half-grid">
                 <article>
                     <img src="../img/book31.png" alt="" width="100%">
                 </article>
                 <article class="vertical-align">
-                    <h2>Make a listing</h2>
-                    <p>Free up your shelf and earn some extra cash by selling your pre-loved books.</p>
                     <form>
                         <label for="fname">Book title</label>
                         <input type="text" id="fname" name="fname">
@@ -45,54 +45,55 @@
                 </article>
             </article>
         </section>
-        <section id="sold" style="height: 100vh;">
+        <section id="sold" class="full-grid vertical-align" style="height: 100vh;">
             <h1><i class="active">Done!</i> Check out your listings in your profile.</h1>
             <a href="../html/profile.html"><button type="button" class="primary default">Go to profile</button></a>
-           
         </section>
-        <section id="buy">
-            <article class="grid-secondary">
-                <article>
-                    <h2>Buy this book</h2>
-                    <p>This book ships to your address.</p>
-                </article>
-                <article class="horizontal-align">
+        <section id="buy" class="full-grid">
+            <article class="inside-box">
+                <div class="horizontal-align"  style="border-bottom: 1px solid black; padding:1em; margin-bottom: 1em;">
                     <article style="padding-right: 1em;"><img src="../img/By-mohamed abdelghaffar-via-Pexels.png" alt=""></article>
                     <article>
                         <p>Mike</p>
                         <p class="active"><strong>98% seller rating</strong></p>
-                        <p class="caption">50 Bookhood listing sold<br>
-                            35 Bookhood feedback</p>
                     </article>
-                </article>
-                <article>
-                    <img src="../img/book31.png" alt="" width="100%">
-                </article>
-                <article>
+                </div>
+                <article class="half-grid">
+                    <img src="/img/book30.png" alt="" width="100%">
                     <article>
-                        <form>
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="fname">
-                            <label for="fname">Last Name</label>
-                            <input type="text" id="fname" name="fname">
+                        <article>
                             <label for="fname">Phone number</label>
+                            <input type="text" id="fname" name="fname">
+                            <label for="fname">Shipping Name</label>
                             <input type="text" id="fname" name="fname">
                             <label for="fname">Shipping address</label>
                             <input type="text" id="fname" name="fname">
-                        </form>
+        
+                            </article>
+                    </article>  
                     </article>
+            </article>
+            <hr>
+            <article class="half-grid">
+                <article>
+                    <h5>Your details</h5> <br>
+                    <h5>Belle Belcher</h5>
+                    <h5>1234 Example Rd</h5>
                     <article>
-                        <h5>Listed Price: $10</h5>
-                            <h5>Shipping: $6 Express Delivery</h5>
-                            <h5 class="active">Total: $16.00</h5>
+                        <p>Estimated Delivery: 3 working days</p>
                     </article>
+                </article>
+                <article>
+                <h5>Listed Price: $10</h5>
+                    <h5>Shipping: $6 Express Delivery</h5>
+                    <h5 class="active">Total: $16.00</h5>
                     <article>
                         <a href="../html/purchase.html#ship"><button type="button" class="primary default">Confirm purchase</button></a>
                     </article>
-                </article>
+            </article>
             </article>
         </section>
-        <section id="ship">
+        <section id="ship" class="full-grid vertical-align" style="height: 100vh;">
             <h1><i class="active">Done!</i> Your order is on its way.</h1>
             <a href="../html/browse.html"><button type="button" class="primary default">Go back to browse</button></a>
         </section>
