@@ -16,11 +16,6 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 }
-.final-grid{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    gap: 1em;
-}
 /*type*/
 h1,h2,h3,h4{
     font-family: 'Playfair Display', serif;
@@ -101,7 +96,11 @@ footer{
 .container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3,auto);
+    gap: 1em;
+}
+.final-grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
     gap: 1em;
 }
 .full-grid,.half-grid,.padded-grid{
@@ -136,7 +135,6 @@ section{padding: 1em;}
     padding: 1em;
     margin: 0.5em 0;
 }
-
 .inside-box{
     border: 1px solid black;
     padding:1em;
@@ -147,6 +145,7 @@ section{padding: 1em;}
     background-position-x: center;
     background-repeat: no-repeat;
     height: 50vh;
+    border-radius: 0.5em;
 }
 hr{
     border: 1px solid #A54E4E;
